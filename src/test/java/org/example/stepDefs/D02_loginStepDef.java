@@ -20,7 +20,7 @@ public class D02_loginStepDef {
     }
     @When("user login with \"valid\" \"fast@gmail.com\" and \"P@ssw0rd\"")
     public void valid_login_data(){
-        login.loginData(driver,"fast@gmail.com","P@ssw0rd");
+        login.loginData(driver,"right@gmail.com","P@ssw0rd");
     }
     @When("user login with \"invalid\" \"wrong@example.com\" and \"P@ssw0rd\"")
     public void invalid_login_data(){
