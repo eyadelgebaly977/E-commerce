@@ -1,3 +1,0 @@
-file:src/main/resources/features/F02_Login.feature:4
-file:src/main/resources/features/F06_homeSliders.feature:3:8
-file:src/main/resources/features/F01_Register.feature:3

@@ -1,3 +1,4 @@
+@smoke
 Feature: WishList
   Scenario: Adding HTC One M8 Android L 5.0 Lollipop to wishlist
     When User click on wishlist button of HTC One M8 Android L 5.0 Lollipop

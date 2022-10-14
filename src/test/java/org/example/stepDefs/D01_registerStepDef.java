@@ -38,7 +38,7 @@ public class D01_registerStepDef {
     }
     @And("user enter email \"test@example.com\" field")
     public void enter_email(){
-        register.enterEmail(driver,"eyadsherif@gmail.com");
+        register.enterEmail(driver,"fast@gmail.com");
     }
     @And("user fills Password fields \"P@ssw0rd\" \"P@ssw0rd\"")
     public void fills_password(){

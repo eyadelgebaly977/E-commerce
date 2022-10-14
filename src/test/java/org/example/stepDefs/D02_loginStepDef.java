@@ -18,13 +18,13 @@ public class D02_loginStepDef {
     public void login_page(){
         login.loginlink().click();
     }
-    @When("user login with \"valid\" \"eyadsherif@gmail.com\" and \"P@ssw0rd\"")
+    @When("user login with \"valid\" \"fast@gmail.com\" and \"P@ssw0rd\"")
     public void valid_login_data(){
-        login.loginData(driver,"eyadsherif@gmail.com","P@ssw0rd");
+        login.loginData(driver,"fast@gmail.com","P@ssw0rd");
     }
     @When("user login with \"invalid\" \"wrong@example.com\" and \"P@ssw0rd\"")
     public void invalid_login_data(){
-        login.loginData(driver,"eyad@gmail.com","P@ssw0rd");
+        login.loginData(driver,"wrong@gmail.com","P@ssw0rd");
     }
     @And("user press on login button")
     public void login_button(){
