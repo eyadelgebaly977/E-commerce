@@ -96,4 +96,12 @@ public class P03_homePage {
         return Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[4]/div[1]/div[4]/div[1]/ul/li[4]/a"));
     }
 
+    //Wishlist
+    public WebElement htcWishlist(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div/div/div/div[4]/div[2]/div[3]/div/div[2]/div[3]/div[2]/button[3]"));
+    }
+    public WebElement qtyValue(){
+        return Hooks.driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[3]/a/span[2]"));
+    }
+
 }
